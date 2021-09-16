@@ -1,5 +1,7 @@
 # game.py
 
+import random
+
 print("Rock, Paper, Scissors, Shoot!")
 
 #PROMPT USER FOR INPUT
@@ -7,3 +9,10 @@ print("Rock, Paper, Scissors, Shoot!")
 #x = input ("Choose 'rock' or 'paper or 'scissors')
 user_choice = input("Choose 'rock' or 'paper' or 'scissors'")
 print(user_choice)
+
+#COMPUTER CHOICE (AT RANDOM)
+
+options = ["rock", "paper", "scissors"]
+
+computer_choice = random.choice(options)
+print(computer_choice)
