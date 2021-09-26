@@ -8,7 +8,7 @@ load_dotenv()
 
 PLAYER_NAME = os.getenv("PLAYER_NAME", default="Player One")
 
-print("Welcome 'PLAYER_NAME' to my Rock, Paper, Scissors game!")
+print (f"Welcome '{PLAYER_NAME}' this is my rock, paper, scissors game!")
 
 #PROMPT USER FOR INPUT
 
@@ -46,8 +46,7 @@ elif(user_choice == "scissors" and computer_choice == "paper"):
     print("Congratulations,you win!")
 else: print("It's a tie!")
 
-breakpoint()
 
 print("THANKS, PLEASE PLAY AGAIN")
 
-exit()
+quit()
