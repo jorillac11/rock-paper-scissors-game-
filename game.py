@@ -2,7 +2,7 @@
 
 import random
 
-print("Rock, Paper, Scissors, Shoot!")
+print("Welcome 'PLAYER_NAME' to my Rock, Paper, Scissors game!")
 
 #PROMPT USER FOR INPUT
 
@@ -42,4 +42,4 @@ else: print("It's a tie!")
 
 breakpoint()
 
-print("THANKS PLEASE PLAY AGAIN")
+print("THANKS, PLEASE PLAY AGAIN")
