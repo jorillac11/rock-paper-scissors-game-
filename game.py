@@ -1,6 +1,12 @@
 # game.py
 
 import random
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+PLAYER_NAME = os.getenv("PLAYER_NAME", default="Player One")
 
 print("Welcome 'PLAYER_NAME' to my Rock, Paper, Scissors game!")
 
@@ -43,3 +49,5 @@ else: print("It's a tie!")
 breakpoint()
 
 print("THANKS, PLEASE PLAY AGAIN")
+
+exit()
