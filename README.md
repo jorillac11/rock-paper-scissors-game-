@@ -12,14 +12,14 @@ Fork this [remote repository](https://github.com/jorillac11/rock-paper-scissors-
 Then navigate there from the command line (subsequent commands assume you are running them from the local repository's root directory):
 
 ```sh
-cd rock-paper-scissors-game-
+cd rock-paper-scissor-game-
 ```
 
-Use Anaconda to create and activate a new virtual environment, perhaps called "rock_paper_scissors":
+Use Anaconda to create and activate a new virtual environment, perhaps called "rock-paper-scissors-":
 
 ```sh
-conda create -n rock_paper_scissors- python=3.8
-conda activate rock_paper_scissors
+conda create -n rock-paper-scissors- python=3.8
+conda activate rock-paper-scissors-
 ```
 
 After activating the virtual environment, install package dependencies (see the ["requirements.txt"](/requirements.txt) file):
@@ -43,6 +43,9 @@ In the root directory of your local repository, create a new file called ".env",
 
 Run the Python file:
 
+```py
 Python game.py
+```
+
 
 > NOTE: if you see an error like "ModuleNotFoundError: No module named '...'", it's because the given package isn't installed, so run the `pip` command above to ensure that package has been installed into the virtual environment.
